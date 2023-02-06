@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+    <title>Code Quiz Challenge </title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="nav">
+                <button class="highscore"><a href="scores.html">Highscores</a></button>
+            </div>
+            <button id = "timer" class="timer">Timer</button>
+        </header>
+
+        <main>
+            <h1>Coding Quiz Challenge</h1>
+            <p>Answer the questions, if you answer incorrectly time will be reduced. Game will end when timer is 0 or if you answered all questions.</p>
+
+            <div class="questions-container">
+                <button id = "start-button">Start Quiz</button>
+                <div id="question-container"></div>
+                    <div id ="answer1" class="btn"></div>
+                    <div id ="answer2" class="btn"></div>
+                    <div id ="answer3" class="btn"></div>
+                    <div id ="answer4" class="btn"></div>
+                </div>          
+            </div>
+        </main>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
