@@ -3,7 +3,7 @@
 <img width="1512" alt="Screenshot 2023-02-05 at 9 45 00 PM" src="https://user-images.githubusercontent.com/112591915/216893943-6734dbd3-bb8e-40f6-9470-3a01100f517d.png">
 
 
-#Acceptance Criteria
+# Acceptance Criteria
 
 GIVEN I am taking a code quiz
 
@@ -17,8 +17,9 @@ GIVEN I am taking a code quiz
 
 * WHEN the game is over THEN I can save my initials and score
 
-#Technologies
+# Technologies
 
 * JavaScript
 * CSS
 * HTML 
+* jQuery
